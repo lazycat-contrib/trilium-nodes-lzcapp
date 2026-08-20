@@ -9,8 +9,8 @@ application:
 services:
   trilium-notes:
     # triliumnext/trilium:v0.98.1
-    # upstream: docker.io/triliumnext/trilium:v0.104.1
-    image: docker.1ms.run/triliumnext/trilium:v0.104.1
+    # upstream: docker.io/triliumnext/trilium:v0.105.0
+    image: docker.1ms.run/triliumnext/trilium:v0.105.0
     environment:
       - TZ=Asia/Shanghai
       - TRILIUM_DATA_DIR=/home/node/trilium-data
